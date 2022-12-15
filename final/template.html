@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Template Pampushka Restaurant</title>
+<meta name="viewport" content="width=device-width" />
+<meta name="robots" content="noindex,nofollow" />
+<meta charset="utf-8">
+<script src="https://use.fontawesome.com/6a71565c22.js"></script>
+<link rel="stylesheet" href="css/template.css"/> 
+
+</head>
+   <body> 
+      <!-- START WRAPPER -->
+      <main class="wrapper">
+
+         <header>
+            <h1 class="header">Pampushka <img src="images/logo_pamp.png" class="pampushka"  alt="Pampushka"> Restaurant</h1>
+            <img src="images/banner.jpg" class="img-header"  alt="banner">
+            <nav>
+               <ul class="topnav" id="myTopnav">
+                  <li><a href="template.php" class="selected">Home</a></li>
+                  <li><a href="about/template.php">About</a></li>
+                  <li><a href="menu.php">Menu</a></li>
+                  <li><a href="reservations.php">Reservations</a></li>
+                  <li><a href="contactme.php">Contact</a></li>
+                  <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+               </ul>
+            </nav>
+         </header>
+         <!--header ends here-->
+         
+
+         <h2 class="welcome">Welcome</h2>
+
+<!------------------ START LEFT COL ----------------------------->
+         <div "Section + Aside container" class="group">
+            <section class="left-section">
+               <img src="images/restaurant.png" class="restaurant"  alt="Restaurant">
+               <div class="paragraph">
+                     <p>Welcome ~ Вітаємо to <strong>Pampushka</strong> Restaurant where dining is just the beginning of your journey. Step into a total cultural experience where great food is just a bonus. At <strong>Pampushka</strong> we take Ukrainian cuisine to a new level.</p>
+                     <p>The menu at <strong>Pampushka</strong> leaps beyond the old familiar basics such as borsch, cabbage rolls and pyrohy. Of course we serve all those traditional dishes you would expect to find on a Ukrainian menu. However, we also explore the more exotic dishes representing various regions of Ukraine. You will taste Ukrainian dishes you never dreamed existed. Our frequent travel to Ukraine brings authentic recipes from numerous fine restaurants in Ukraine from Kyiv to Lviv to Bukovyna to the Black Sea and more.</p>
+                     <p>To complement your dining adventure we serve imported beers, wines, fine champagnes and several premium vodka choices from Ukraine. Sample such Ukrainian liquor labels as Slavutich, Lvivske, Krimsekt, Odessa, Slava, Zirkova, Khortytsya, and Nemiroff to name but a few.</p>
+                     <p>At <strong>Pampushka</strong> you will certainly stimulate all your senses -- the Ukrainian way. When we say ‘taste’ we involve more than just your taste buds. Be prepared for sights, sounds, smells, tastes and feelings that are sure to transport you to another world and another time.</p>
+                     <p>A visit to <strong>Pampushka</strong> begins before you even cross the threshold. You will immediately be taken on a journey to a Ukrainian village as you approach what appears from the exterior to be a Ukrainian house with its thatched roof and woven willow fence.  As you enter you may choose your own adventure by dining in the setting of the courtyard of an 18th century village house or alongside a mural that takes you into a village market place bazar. Feeling romantic? Take a table under the romantic starlight of the orchard. Or surround yourself by original art from Ukraine that will inspire any appetite.</p>
+                     <p>Plenty to see—plenty to taste. The journey to Ukraine begins at <strong>Pampushka</strong>. Whether it’s a quiet dinner or a party of celebration we will be happy to serve you and we hope to have that opportunity soon. Bring your appetite and your celebration to us.</p>
+                     <p>We await your arrival! Ми вас радо чекаємо!</p>
+               </div>
+            </section>
+
+<!------------------------------------------------------ START RIGHT COL ----------------------------------------------------------------------->
+            <aside id="recent-posts-3" class="aside-news">
+		      <h3 class="news-events">News &#038; Events</h3>
+                  <nav aria-label="News &#038; Events">
+		               <ul>
+						      <li class="brake"> 
+					            <!--<a href="https://tasteofukraine.com/christmas-orders/">-->CHRISTMAS ORDERS</a>
+							   </li>
+							   <li class="brake">
+					            <!--<a href="https://tasteofukraine.com/perogies-in-the-parking-lot/">-->&#8220;PEROGIES IN THE PARKING LOT&#8221; Fund Raising Event</a>
+							   </li>
+							   <li class="brake">
+					            <!--<a href="https://tasteofukraine.com/russian-invasion-of-ukraine/">-->RUSSIAN INVASION OF UKRAINE</a>
+							   </li>
+							   <li class="brake">
+					            <!--<a href="https://tasteofukraine.com/covid-19-update/">-->COVID-19 Update</a>
+							   </li>
+							   
+					      </ul> 
+		            </nav>
+            </aside>&nbsp;
+      
+            <aside id="text-6" class="aside-comments">	
+               <h3 class="review">Review</h3>		
+               <p>
+                   Add your comments about Pampushka Restaurant
+               </p>
+               <a href="/add-a-restaraunt-review/">Click Here</a>
+            </aside>
+         </div>
+   <!-----------------------END RIGHT COL --------------------->
+
+   <!-- START Footer -->
+         <footer>
+               <p><small>&copy; 2020-<?=date("Y")?> by 
+                  <a href="contact.php">Elena Barsov</a>, All Rights Reserved ~ 
+                  <a id="html-checker" href="https://validator.w3.org/nu/?doc=http://www.ebarsov.com/it162/final/template.html">Check HTML</a> ~ 
+                  <a id="css-checker" href="https://jigsaw.w3.org/css-validator/validator?uri=http://www.ebarsov.com/it162/final/template.html&lang=en">Check CSS</a></small>
+               </p>
+         </footer>
+<!-- END Footer --> 
+      </main>
+<!-- END WRAPPER -->
+
+       <script>
+      //https://tinyurl.com/dynamic-html-checker
+               document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+               document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
+
+               //manages mobile nav - from W3Schools
+               function myFunction() 
+               {
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "topnav") 
+                  {
+                     x.className += " responsive";
+                  } 
+                  else 
+                  {
+                     x.className = "topnav";
+                  }
+               }   
+         </script>
+   </body>
+</html>
